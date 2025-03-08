@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def load_data():
-    customers_df = pd.read_csv("dashboard/customers_clean_df.csv")
-    order_items_df = pd.read_csv("dashboard/order_items_clean_df.csv")
-    order_reviews_df = pd.read_csv("dashboard/order_reviews_clean_df.csv")
-    orders_df = pd.read_csv("dashboard/orders_clean_df.csv")
-    products_df = pd.read_csv("dashboard/products_clean_df.csv")
+    customers_df = pd.read_csv("https://raw.githubusercontent.com/mraihanfauzii/Brazilian_E-Commerce_Public_Dataset_Analysis/refs/heads/main/dashboard/customers_clean_df.csv")
+    order_items_df = pd.read_csv("https://raw.githubusercontent.com/mraihanfauzii/Brazilian_E-Commerce_Public_Dataset_Analysis/refs/heads/main/dashboard/order_items_clean_df.csv")
+    order_reviews_df = pd.read_csv("https://raw.githubusercontent.com/mraihanfauzii/Brazilian_E-Commerce_Public_Dataset_Analysis/refs/heads/main/dashboard/order_reviews_clean_df.csv")
+    orders_df = pd.read_csv("https://raw.githubusercontent.com/mraihanfauzii/Brazilian_E-Commerce_Public_Dataset_Analysis/refs/heads/main/dashboard/orders_clean_df.csv")
+    products_df = pd.read_csv("https://raw.githubusercontent.com/mraihanfauzii/Brazilian_E-Commerce_Public_Dataset_Analysis/refs/heads/main/dashboard/products_clean_df.csv")
 
     return customers_df, order_items_df, order_reviews_df, orders_df, products_df
 
